@@ -1,0 +1,66 @@
+    .normal{
+      background: linear-gradient(to right,AliceBlue,Azure);
+    }
+    .textbox{
+      width:1000px;
+      /*height:1500px;*/
+      background:linear-gradient(Gainsboro,WhiteSmoke);
+      float:left;
+      margin-left:60px;
+      margin-top:20px;
+      opacity:0.7;
+    }
+    .textbox:hover{opacity:0.9;}
+    .pic{
+      margin-top:92px;
+    }
+    .tools{
+      background:LightGray;
+      border:2 black;
+      width:160px;
+      height:30px;
+      margin-left:120px;
+      color:Gold;
+      opacity:0.6;
+    }
+    .tools:hover{opacity:0.9;}
+    #toolbar {
+      float:right;
+      width:400px;
+      height:720px;
+      background:linear-gradient(Ivory,FloralWhite);
+      margin-left:1100px;
+      margin-top:10px;
+      position:fixed;
+      opacity:0.7;
+    }
+    #toolbar:hover{opacity:0.9;}
+    #Headin {
+      width:30px;
+      border:1px solid Navy;
+      color:Dodgerblue;
+      background:Mintcream;
+      font-size:30px;
+      font-family:Consolas;
+      text-align:center;
+      position:fixed;
+    }
+    .mainbody {text-indent:1em;}
+
+    #Book {
+      height:180px;
+      border:2px solid DimGray;
+      color:Teal;
+      background:linear-gradient(to right,Silver,Snow);
+      opacity:0.7;
+    }
+    #Book:hover{opacity:1;}
+    #Bookpic {
+      width:300px;
+      align:center;
+      float:left;
+    }
+    #Booldetail {
+      float:left;
+      border-left:2px solid DimGray;
+    }

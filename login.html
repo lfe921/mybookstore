@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style type="text/css">
+    #mainpart{
+      text-align:center;
+      background:linear-gradient(Gainsboro,WhiteSmoke);
+      position:absolute;
+      width:900px;
+      height:600px;
+      left:50%;
+      top:50%;
+      margin-left:-450px;
+      margin-top:-300px;
+    }
+    .half{
+      opacity:0.6;
+    }
+    .half:hover{
+      opacity:0.8;
+    }
+    .title{
+      color:MidnightBlue;
+    }
+  </style>
+</head>
+
+<body background="loginpage.jpeg" style="background-repeat:no-repeat;
+  background-size:100% 100%;background-attachment:fixed;">
+  <div id="mainpart" class="half">
+    <div>
+      <h1 class="title">Welcome To Ibookstore</h1>
+      <br>
+      <img src="loginpic.webp" width="471" height="336" vspace="0"/>
+      <br>
+      <form action="/example/html5/demo_form.asp" method="get">
+      Usertype: <input type="text" list="typ_list" name="link" />
+        <datalist id="typ_list">
+          <option value="Student" />
+          <option value="Teacher" />
+        </datalist>
+      <br>
+      Username: <input type="text" name="usr_name" required="required" />
+      <br>
+      Password: <input type="text" name="usr_password" required="required" />
+      <br>
+      <input type="button" value="submit" onclick="clickit();" />
+      </form>
+      <script>
+        function clickit() {
+          location.href="mainpage.html";
+        }
+      </script>
+    </div>
+  </div>
+</body>
+</html>
